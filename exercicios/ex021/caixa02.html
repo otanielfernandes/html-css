@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="pt-pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: rgb(122, 122, 122);
+            margin:0px;
+        }
+        header{
+        
+            background-color: white;
+            padding: 10px;
+            margin:10px;
+        
+           
+        }
+        main{
+            
+            background-color: white;
+            padding:10px;
+            margin:10px;
+            /* border-top-left-radius: 20px;
+            border-top-right-radius: 30px;
+            border-bottom-left-radius: 40px;
+            border-bottom-right-radius: 25px; */
+            border-radius: 3%;
+        }
+        nav{
+            background-color: grey;
+            padding: 5px;
+            box-shadow: 5px 5px 4px 8px rgba(0, 0, 0, 0.568);
+        }
+        nav > a{
+            text-decoration: none;
+            margin-right: 30px;
+            font-weight: bolder;
+            color: white;
+        }
+
+        h1{
+            box-shadow: inset 7px 8px 7px 5px rgba(0, 0, 0, 0.418);
+        }
+
+        #config > a:hover{
+            text-decoration:  3px underline;
+            color: blue;
+        }
+ 
+        footer > p {
+            margin:0px;
+        }
+        footer{
+            background-color: black;
+            color: white;
+            padding: 8px;
+            text-align: center;
+        }
+        #noticias > article{
+            background-color: rgb(187, 184, 184);
+            padding: 10px;
+        }
+
+        article > aside{
+            background-color: rgb(143, 142, 142);
+        }
+
+       #bola{
+           width: 200px;
+           height: 200px;
+           background-color: white;
+           margin: 10px;
+           border-radius: 50%;
+       }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+            <nav id="config">
+                <a href="#">Link</a>
+                <a href="#">Link</a>
+                <a href="#">Link</a>
+                <a href="#">Link</a>
+                <a href="#">Link</a>
+            </nav>
+    </header>
+    
+    <main>
+        <section id="assuntos">
+            <p>Esportes Política Tecnologia</p>
+        </section>
+
+        <section id="noticias">
+            <article>
+                <h2>Notícias de Angola-Luanda</h2>
+                <p>João Manuel Gonsalves Lourenço, claro
+                    com a ajuda da CNE vence as eleições mais 
+                    uma vez (2022-2027), deixando assim o 
+                    o partido escolhido pelo povo (UNITA) para
+                    trás, com uma diferença mínima de 3,17%
+                     de votos, eis o verdadeiro motivo da
+                     tristeza do povo angolano </p>
+                <aside>
+                    <p>Artigo escrito por Eurico Dande &#x1F596;</p>
+                </aside>
+                
+            </article>
+        </section>
+
+    
+    </main>
+
+    <footer>
+        <p>&copy; Desenvolvido por Otani&euro;l Fernand&euro;s</p>
+    </footer>
+    <div id="bola"></div>
+</body>
+</html>
