@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pt-pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo  com tabelas</title>
+    <style>
+        body{
+            font-family:Arial, Helvetica, sans-serif;
+        }
+        table{
+            border-collapse:collapse;
+            width:450px;
+        }
+        caption{
+            font-size: 1.3em;
+            font-weight: bold;
+            padding: 5px;
+        }
+        th, td{
+            border:1px solid black;
+        }
+        .nome{
+            background-color: chartreuse;
+        }
+        .sexo_idd{
+            background-color: chocolate;
+        }
+        col.prof{
+            background-color: coral;
+        }
+    </style>
+</head>
+<body>
+    <h1>Exercícios de tabelas</h1>
+    
+    <table>
+        <colgroup>
+            <col class="nome" span="1">
+            <col class="sexo_idd" span="2">
+            <col class="prof">
+        </colgroup>
+        <caption>Cadastro</caption>
+        <tr>
+            <th>Nome</th>
+            <th>Sexo</th>
+            <th>Idade</th>
+            <th>Profissão</th>
+        </tr>
+
+        <tr>
+            <td>Otaniel Fernandes</td>
+            <td>M</td>
+            <td>20</td>
+            <td>Piloto</td>
+        </tr>
+
+        <tr>
+            <td>Denilson Esteves</td>
+            <td>M</td>
+            <td>25</td>
+            <td>Advogado</td>
+        </tr>
+
+        <tr>
+            <td>Jossany Esteves</td>
+            <td>M</td>
+            <td>27</td>
+            <td>Engº Petróleo</td>
+        </tr>
+
+        <tr>
+            <td>Edgand</td>
+            <td>M</td>
+            <td>28</td>
+            <td>Engº Informático</td>
+        </tr>
+
+        <tr>
+            <td>Goreth Cafele</td>
+            <td>F</td>
+            <td>23</td>
+            <td>Geologa</td>
+        </tr>
+
+        <tr>
+            <td>Delmiro</td>
+            <td>M</td>
+            <td>20</td>
+            <td>Arquiteto</td>
+        </tr>
+
+        <tr>
+            <td>Augusto</td>
+            <td>M</td>
+            <td>20</td>
+            <td>Programador</td>
+        </tr>
+
+        <tr>
+            <td>Emmanuel</td>
+            <td>M</td>
+            <td>20</td>
+            <td>Médico</td>
+        </tr>
+
+        <tr>
+            <td>Maureth Custódio</td>
+            <td>F</td>
+            <td>19</td>
+            <td>Médica</td>
+        </tr>
+    </table>
+
+</body>
+</html>
