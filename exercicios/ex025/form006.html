@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    <h1>Teste de formulários</h1>
+    <form action="cadastro.php" method="POST" autocomplete="on">
+        <fieldset>
+                <legend>"Testando"</legend>
+                <p>
+                    <label for="icor">Cor:</label>
+                    <input type="color" name="cor" id="icor" value="ffffff">
+                </p>
+
+                <p>
+                    <label for="inivel">Satisfação:</label>
+                    <input type="range" name="nivel" id="inivel" min="1" max="5" value="2.5">
+                </p>
+
+                <p>
+                    <label for="iarquivo">Arquivo:</label>
+                    <input type="file" name="arquivo" id="iarquivo">
+                </p>
+
+                <p>
+                    <input type="reset" value="Limpar">
+                    <input type="submit" value="Enviar">
+                </p>
+        </fieldset>
+    </form>
+</body>
+</html>

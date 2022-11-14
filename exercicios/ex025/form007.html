@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    <h1>Teste de formulários</h1>
+    <form action="cadastro.php" method="POST" autocomplete="on">
+        <fieldset>
+            <legend>Províncias e Profissões</legend>
+
+            <p>
+                <label for="iprov">Províncias:</label>
+                <select name="prov" id="iprov">
+                        <option value="" selected>...Selecione sua província...</option>
+                    <optgroup label="Províncias do Sul">
+                        <option value="LDA">Luanda</option>
+                        <option value="KS">Kwanza-Sul</option>
+                        <option value="BG">Benguela</option>
+                        <option value="BN">Bengo</option>
+                        <option value="HB">Huambo</option>
+                    </optgroup>
+
+                    <optgroup label="Províncias do Norte">
+                        <option value="KN">Kwanza-Norte</option>
+                        <option value="MJ">Malanje</option>
+                        <option value="ZR">Zaire</option>
+                        <option value="CD">Cabinda</option>
+                        <option value="UG">Uíge</option>
+                    </optgroup>
+                </select>
+            </p>
+
+            <p>
+                <label for="iprof">Profissão:</label>
+                <input type="text" name="prof" id="iprof" list="listprof">
+                <datalist id="listprof">
+                    <option value="ADM">Administrador</option>
+                    <option value="Prof">Professor</option>
+                    <option value="DEV">Desenvolvedor</option>
+                    <option value="DES">Designer</option>
+                    <option value="JG">Jogador</option>
+                    <option value="AS">Analísta de Sistemas</option>
+                    <option value="EngºS">Engenheiro de Software</option>
+                    <option value="PR">Programador</option>
+                    <option value="Eng Sr">Engenheiro Senior</option>
+                    <option value="PL">Piloto</option>
+                    <option value="J">Juíz</option>
+                    <option value="Eng Tel">Engenheiro de Telecomunicações</option>
+                    <option value="AQ">Arquiteto</option>
+                    <option value="BC">Bancário/a</option>
+                    <option value="EMP">Empresário</option>
+                </datalist>
+            </p>
+
+            <p>
+                <label for="imsg">Mensagem:</label><br/>
+                <textarea name="msg" id="imsg" cols="20" rows="5"></textarea>
+            </p>
+
+            <p>
+                <input type="reset" value="Limpar">
+                <input type="submit" value="Enviar">
+            </p>
+        </fieldset>
+    </form>
+</body>
+</html>
