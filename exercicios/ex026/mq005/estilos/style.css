@@ -48,7 +48,8 @@ menu > ul{
     background-color: rgb(151, 150, 150);
     padding: 10px;
     color: white;
-    border-top: 2px solid rgb(90, 90, 90);
+    border-radius: 10px;
+    margin-left: 5px;
 }
 
 
@@ -57,7 +58,7 @@ menu > ul > li > a:hover{
 }
 
 main{
-    width: 85vw;
+    width: 80vw;
     background-color: white;
     margin: auto;
     margin-top: 15px;
